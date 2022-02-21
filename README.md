@@ -1,0 +1,1 @@
+# Devind django app when provides notifications via graphql subscription
