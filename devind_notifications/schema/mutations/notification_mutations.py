@@ -72,7 +72,7 @@ class ChangeNotificationsMutation(BaseMutation):
             notification.save(update_fields=(field,))
             NotificationsSubscription.notify(
                 f'notification.{notification.user_id}',
-                ConsumerActionType.CHANGE,
+                ConsumerActionType.DELETE if field == 'hide' else ConsumerActionType.CHANGE,
                 notification.id
             )
         return ChangeNotificationsMutation()
