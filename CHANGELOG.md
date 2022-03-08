@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2022-03-08)
+### Fix
+* Update devind-core dependency ([`b5d2b99`](https://github.com/devind-team/devind-django-notifications/commit/b5d2b99361da1f719061ffbc31dd6bb84e65db91))
+
 ## v0.1.1 (2022-03-01)
 ### Fix
 * Update behavior when hiding a notification ([`95db1c4`](https://github.com/devind-team/devind-django-notifications/commit/95db1c4ef149ca7ea2e9cecfc5a63861bfa71ab5))
