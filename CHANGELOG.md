@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2022-03-16)
+### Feature
+* Update dependendies devind-core ([`f471a41`](https://github.com/devind-team/devind-django-notifications/commit/f471a4131ec453fcc883ec7d0f96d4cefe41449e))
+
 ## v0.1.2 (2022-03-08)
 ### Fix
 * Update devind-core dependency ([`b5d2b99`](https://github.com/devind-team/devind-django-notifications/commit/b5d2b99361da1f719061ffbc31dd6bb84e65db91))
