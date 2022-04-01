@@ -1,7 +1,7 @@
 import importlib
 
 from django.conf import settings
-from django.contrib.postgres.fields import ArrayField
+#from django.contrib.postgres.fields import ArrayField
 from django.db import models
 
 
@@ -43,16 +43,17 @@ class AbstractMailing(models.Model):
         - TelegramDispatch - отправка по средства телеграмма
     """
 
-    dispatchers = ArrayField(
-        models.CharField(max_length=30),
+    dispatchers = models.JSONField(
+        #models.CharField(max_length=30),
         default=default_dispatchers,
         help_text='Средства отправки'
     )
     address = models.EmailField(default=mailing_default_email, help_text='Адрес отправки')
     header = models.CharField(max_length=256, help_text='Заголовок сообщения')
     text = models.TextField(help_text='Текст сообщения')
-    attachments = ArrayField(
-        models.FileField(upload_to=attachments_directory_path, max_length=1024, help_text='Файлы'),
+    attachments = models.JSONField(
+        #models.FileField(upload_to=attachments_directory_path, max_length=1024, help_text='Файлы'),
+        default=list,
         help_text='Массив прикрепленных файлов',
         null=True
     )
