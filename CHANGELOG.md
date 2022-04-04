@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.0 (2022-04-04)
+### Feature
+* Обновление зависимостей ([`cb25292`](https://github.com/devind-team/devind-django-notifications/commit/cb2529242c14160aa3047262a77fec9037173898))
+
 ## v0.3.0 (2022-04-04)
 ### Feature
 * Отвязка модели mailing от postgres типов ([`bd48e1f`](https://github.com/devind-team/devind-django-notifications/commit/bd48e1f5d72e798f62bdc35439920f74de8b5bba))
