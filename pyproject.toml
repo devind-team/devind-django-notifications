@@ -16,11 +16,11 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-devind-core = "^0"
+devind-core = "^0.5"
 Django = "^3"
 graphene-django = "^2.15.0"
 devind-helpers = "^0"
-celery = "^5.2.3"
+celery = "^5.2.5"
 
 [tool.poetry.dev-dependencies]
 
