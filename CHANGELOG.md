@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.2 (2022-04-12)
+### Fix
+* Обновление зависимостей ([`362808b`](https://github.com/devind-team/devind-django-notifications/commit/362808ba22d6123a9b6f98d8a9026dc9d543632a))
+
 ## v0.4.1 (2022-04-04)
 ### Fix
 * Добавление миграции ([`66765ba`](https://github.com/devind-team/devind-django-notifications/commit/66765ba998c9d788d78ff2be196390ec2cce6612))
